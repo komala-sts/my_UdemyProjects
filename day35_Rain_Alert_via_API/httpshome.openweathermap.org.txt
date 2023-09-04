@@ -1,0 +1,58 @@
+https://home.openweathermap.org/
+komalariyadh@gmail.com
+Krish100%
+
+API KEY 
+9bc70b8290780d7207f939d894b1f7a6
+9bc70b8290780d7207f939d894b1f7a6
+
+
+sample JSON for the link
+ https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=9bc70b8290780d7207f939d894b1f7a6
+
+{
+  "coord": {
+    "lon": 10.99,
+    "lat": 44.34
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 291.47,
+    "feels_like": 291.32,
+    "temp_min": 288.88,
+    "temp_max": 292.4,
+    "pressure": 1010,
+    "humidity": 75,
+    "sea_level": 1010,
+    "grnd_level": 927
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 2.11,
+    "deg": 209,
+    "gust": 2.3
+  },
+  "clouds": {
+    "all": 44
+  },
+  "dt": 1690846231,
+  "sys": {
+    "type": 2,
+    "id": 2004688,
+    "country": "IT",
+    "sunrise": 1690862558,
+    "sunset": 1690915321
+  },
+  "timezone": 7200,
+  "id": 3163858,
+  "name": "Zocca",
+  "cod": 200
+}
