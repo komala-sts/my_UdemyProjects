@@ -11,7 +11,7 @@ import pandas
 import random
 import smtplib
 
-MY_EMAIL = "komalariyadh@gmail.com"
+MY_EMAIL = "my@gmail.com"
 MY_PASSWORD = "Password"
 
 # MY_EMAIL = "YOUR EMAIL"
