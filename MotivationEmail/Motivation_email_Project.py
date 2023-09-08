@@ -5,8 +5,8 @@ import calendar
 import random
 
 
-MY_EMAIL = "komalariyadh@gmail.com"
-MY_PASSWORD = "uemltjqclrekwapl"
+MY_EMAIL = "my@gmail.com"
+MY_PASSWORD = "password"
 
 now = dt.datetime.now()
 weekday = now.weekday()
