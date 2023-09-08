@@ -21,7 +21,7 @@ api_key = "Your API Key"
 #FOR SENDING SMS
 account_sid = "YOUR ACCOUNT SID"
 auth_token = "YOUR Auth token"
-#auth_token = os.environ.get("3f26b0c05623f942e7be802991d9857d")
+ 
 # account_sid = "YOUR ACCOUNT SID"
 # auth_token = os.environ.get("AUTH_TOKEN")
 #Manchester/Coordinates 53.4808° N, 2.2426° W
