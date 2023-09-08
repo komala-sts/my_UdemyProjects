@@ -19,10 +19,10 @@ OWM_Endpoint = "https://api.openweathermap.org/data/2.5/weather"
 #https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=9bc70b8290780d7207f939d894b1f7a6
 #https://api.openweathermap.org/data/2.5/weather?lat=53.48075&lon=-2.242631&appid=9bc70b8290780d7207f939d894b1f7a6&exclude=current%2Cminutely%2Cdaily
 #api_key = os.environ.get("9bc70b8290780d7207f939d894b1f7a6")
-api_key = "9bc70b8290780d7207f939d894b1f7a6"
+api_key = "Your API Key"
 #FOR SENDING SMS
-account_sid = "AC305c864bf2e8143206329685fab91e7d"
-auth_token = "3f26b0c05623f942e7be802991d9857d"
+account_sid = "YOUR ACCOUNT SID"
+auth_token = "YOUR Auth token"
 #auth_token = os.environ.get("3f26b0c05623f942e7be802991d9857d")
 # account_sid = "YOUR ACCOUNT SID"
 # auth_token = os.environ.get("AUTH_TOKEN")
