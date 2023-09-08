@@ -12,7 +12,7 @@ import random
 import smtplib
 
 MY_EMAIL = "komalariyadh@gmail.com"
-MY_PASSWORD = "uemltjqclrekwapl"
+MY_PASSWORD = "Password"
 
 # MY_EMAIL = "YOUR EMAIL"
 # MY_PASSWORD = "YOUR PASSWORD"
