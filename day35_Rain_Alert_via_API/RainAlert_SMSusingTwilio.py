@@ -3,9 +3,7 @@
 #https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
 import requests
 from twilio.rest import Client
-#import os
-
-#from twilio.http.http_client import TwilioHttpClient
+ 
 #pip install  twilio
 # Twilio helps to Send an SMS message in Python via the REST API. To send an outgoing SMS message from your 
 # Twilio account you'll need to make an HTTP POST to Twilio's Message resource. 
@@ -18,7 +16,7 @@ OWM_Endpoint = "https://api.openweathermap.org/data/2.5/weather"
 #api_key = os.environ.get("OWM_API_KEY")
 #https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=9bc70b8290780d7207f939d894b1f7a6
 #https://api.openweathermap.org/data/2.5/weather?lat=53.48075&lon=-2.242631&appid=9bc70b8290780d7207f939d894b1f7a6&exclude=current%2Cminutely%2Cdaily
-#api_key = os.environ.get("9bc70b8290780d7207f939d894b1f7a6")
+ 
 api_key = "Your API Key"
 #FOR SENDING SMS
 account_sid = "YOUR ACCOUNT SID"
@@ -38,20 +36,14 @@ weather_params = {
 response = requests.get(OWM_Endpoint, params=weather_params)
 response.raise_for_status()
 weather_data = response.json()
-#weather_slice = weather_data["hourly"][:12]
 weather_slice = weather_data["weather"]
 print(weather_slice)
 will_rain = False
 
 for data in weather_slice:
-    main_description = data["main"].lower()
-
-    print(main_description)
-    #condition_code = hour_data["weather"][0]["id"]
-    # if int(condition_code) < 700:
-    #     will_rain = True
-    print(main_description)
-    print(main_description.find("rain"))
+    main_description = data["main"].lower() 
+    #print(main_description)
+    #print(main_description.find("rain"))
     if(main_description.find("rain") != -1):
         will_rain = True
          
@@ -66,12 +58,9 @@ if will_rain:
     to='+447760510303')
     print(message.sid)
     print(message.status)
-    # client = Client(account_sid, auth_token)
-    # message = client.messages.create(        
-    #     body="It's going to be Cloudy & Gloomy today. Enjoy!",
-    #     from_="+447360537525",
-    #     to="447760510303"
-    # )
+
+
+
 
 
  
